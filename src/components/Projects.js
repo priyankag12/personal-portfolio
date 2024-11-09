@@ -12,17 +12,17 @@ export const Projects = () => {
   const projects = [
     {
       title: "PaperLingo: Gamified Paper Trading Platform",
-      description: "The platform designed to help users simulate stock market trading in a gamified environment. Users can practice their trading skills without risking real money, take quizzes to enhance their learning, and interact with an AI-powered chatbot for assistance and market insights.",
+      description: "A platform for simulating stock market trading in a gamified environment, where users can practice trading risk-free, take quizzes to improve skills, and interact with an AI chatbot for assistance and market insights.",
       imgUrl: projImg1,
     },
     {
       title: "Vedic Connect: an E-Learning Platform",
-      description: "An interactive e-learning platform for students and instructors. Instructors can upload notes, giving students organized access to class materials. Google API is integrated for live sessions, fostering real-time interaction. Students can easily navigate all resources — documents, lecture videos, and notes.",
+      description: "An interactive e-learning platform where instructors upload notes for organized student access to class materials. Google API integration enables live sessions, fostering real-time interaction, with easy navigation of documents, lecture videos, and notes.",
       imgUrl: projImg2,
     },
     {
       title: "Unidrive: a Ride-Sharing Platform",
-      description: "Design & Development",
+      description: "A ridesharing application that connects users for convenient and affordable travel. It enables real-time matching of riders and drivers, route optimization, and secure in-app payments, making shared travel seamless and efficient.",
       imgUrl: projImg3,
     },
   ];

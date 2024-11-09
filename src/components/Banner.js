@@ -55,7 +55,6 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
                     <span className="intro-text">{`Hi! I'm Priyanka`}</span>
                   </h1>
@@ -64,9 +63,9 @@ export const Banner = () => {
                       <span className="wrap">{text}</span>
                     </span>
                   </h2>
-                  <p>A Third-year Computer Science student at Symbiosis Intitue of Technology, Pune and a Tech Enthusiast skilled in web development, UI/UX design, and data analysis. <br>
-                  </br>Currently, I'm the Chairperson of the ACM student chapter at SIT and actively working on projects like an E-learning platform and a Pharmacy Management System. <br>
-                  </br>My experience spans various tech stacks, including MERN and cloud platforms like AWS. I'm now exploring NLP, AI, and Machine Learning for my final-year project, 
+                  <p>A Third-year Computer Science student at Symbiosis Intitue of Technology, Pune and a Tech Enthusiast skilled in Web Development, UI/UX design, and Data Analysis. <br>
+                  </br>I'm currently working on projects like an E-learning platform and a Paper Trading Platform. <br>
+                  </br>My experience spans various tech stacks, including MERN and cloud platforms like AWS. I'm now exploring NLP, AI, and Machine Learning, 
                     aiming to create impactful, innovative solutions!</p>
                 </div>}
             </TrackVisibility>
