@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+  const toRotate = ["Web Developer", "UI/UX Designer","Machine Learning Enthusiast"];
   const period = 2000;
 
   useEffect(() => {
@@ -63,10 +63,11 @@ export const Banner = () => {
                       <span className="wrap">{text}</span>
                     </span>
                   </h2>
-                  <p>A Third-year Computer Science student at Symbiosis Intitue of Technology, Pune and a Tech Enthusiast skilled in Web Development, UI/UX design, and Data Analysis. <br>
+                  <p>Third-year Computer Science student at Symbiosis Intitue of Technology, Pune.<br>
+                  </br>A Tech Enthusiast skilled in Web Development, UI/UX design, and Data Analysis. <br>
                   </br>I'm currently working on projects like an E-learning platform and a Paper Trading Platform. <br>
-                  </br>My experience spans various tech stacks, including MERN and cloud platforms like AWS. I'm now exploring NLP, AI, and Machine Learning, 
-                    aiming to create impactful, innovative solutions!</p>
+                  </br>My experience spans various Tech Stacks, including MERN and Cloud Platforms like AWS and GCP. I'm now exploring domains like NLP, AI and Machine Learning.<br>
+                  </br>Aiming to create impactful, innovative solutions to Real-Life Problems!</p>
                 </div>}
             </TrackVisibility>
           </Col>

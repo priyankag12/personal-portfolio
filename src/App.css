@@ -90,6 +90,10 @@ nav.navbar {
   z-index: 9999;
   transition:  0.32s ease-in-out;
 }
+nav.navbar.scrolled {
+  padding: 0px 0;
+  background-color: #021006;
+}
 nav.navbar a.navbar-brand {
   font-weight: 50;
   letter-spacing: 0.8px;
@@ -298,9 +302,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+  background-color: rgb(5, 29, 2);
 }
 .skill-bx {
-  background: #151515;
+  background: #0a0a0a;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -442,6 +447,89 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+
+/***********Acheivements Css***********/
+/* Achievements section styling */
+.achievement {
+  padding: 60px 0;
+  position: relative;
+  background-color: rgb(5, 29, 2);
+}
+
+.achievement h2 {
+  font-size: 2.5em;
+  color: #d7cfcf;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.achievement p {
+  text-align: center;
+  color: #beb8b8;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+.nav-pills .nav-link {
+  color: #777;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  margin: 0 10px;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #5a9;
+  color: #fff;
+}
+
+.achievement .tab-content {
+  padding-top: 30px;
+}
+
+.achievement .project-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.achievement .project-card:hover {
+  transform: translateY(-10px);
+}
+
+.achievement .project-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 5px solid #5a9;
+}
+
+.achievement .project-card h5 {
+  font-size: 1.3em;
+  color: #333;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.achievement .project-card p {
+  color: #666;
+  padding: 0 20px 20px;
+}
+
+.background-image-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 300px;
+  opacity: 0.1;
+  z-index: -1;
+}
+
 
 /************ Contact Css ************/
 .contact {
