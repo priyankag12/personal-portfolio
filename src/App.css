@@ -241,7 +241,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-color: rgb(5, 29, 2);
+  background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -302,7 +302,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
-  background-color: rgb(5, 29, 2);
+  background-image: url('./assets/img/banner-bg.png');
 }
 .skill-bx {
   background: #0a0a0a;
@@ -343,7 +343,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: rgb(5, 29, 2);
+  background-image: url('./assets/img/banner-bg.png');
 }
 .project h2 {
   font-size: 45px;
@@ -453,7 +453,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .achievement {
   padding: 60px 0;
   position: relative;
-  background-color: rgb(5, 29, 2);
+  background-image: url('./assets/img/banner-bg.png');
 }
 
 .achievement h2 {
@@ -534,7 +534,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Contact Css ************/
 .contact {
   padding: 0 0 50px 0;
-  background-color: rgb(5, 29, 2);
+  background-image: url('./assets/img/banner-bg.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -594,7 +594,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-color: rgb(5, 29, 2);
+  background-color: rgb(0, 0, 0);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
